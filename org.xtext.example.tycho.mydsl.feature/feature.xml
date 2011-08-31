@@ -16,7 +16,7 @@
       [Enter License Description here.]
    </license>
 
-   <plugin
+    <plugin
          id="org.xtext.example.tycho.mydsl"
          download-size="0"
          install-size="0"

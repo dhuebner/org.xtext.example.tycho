@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.xtext.example.tycho.mydsl</groupId>
+  <artifactId>org.xtext.example.tycho.mydsl.tests</artifactId>
+  <parent>
+    <groupId>org.xtext.example.tycho.mydsl</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+    <artifactId>mydsl-parent</artifactId>
+    <relativePath>../org.xtext.example.tycho.mydsl.feature/maven-parent/pom.xml</relativePath>
+  </parent>
+  <packaging>eclipse-test-plugin</packaging>
+</project>
