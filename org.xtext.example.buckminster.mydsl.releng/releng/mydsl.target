@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
 
-<target name="MyDSL platform" sequenceNumber="21">
+<target name="MyDSL platform" sequenceNumber="32">
 <locations>
-<location includeAllPlatforms="true" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<location includeAllPlatforms="true" includeMode="planner" includeSource="false" type="InstallableUnit">
 <unit id="org.junit4" version="0.0.0"/>
-<unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.swt.cocoa.macosx.x86_64" version="0.0.0"/>
 <repository location="http://download.eclipse.org/releases/indigo"/>
 </location>
-<location includeAllPlatforms="true" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<location includeAllPlatforms="true" includeMode="planner" includeSource="false" type="InstallableUnit">
 <unit id="org.eclipse.xtext.ui.feature.group" version="0.0.0"/>
 <unit id="org.eclipse.xtext.ui.junit" version="0.0.0"/>
 <unit id="org.eclipse.xtext.junit4" version="0.0.0"/>
