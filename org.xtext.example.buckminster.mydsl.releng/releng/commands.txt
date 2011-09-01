@@ -4,4 +4,4 @@ import ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl
 
 build
 
-perform org.xtext.example.buckminster.mydsl.releng#site.p2.zip
+perform -P ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/buckminster.properties org.xtext.example.buckminster.mydsl.releng#site.p2.zip
