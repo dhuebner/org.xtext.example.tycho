@@ -1,7 +1,9 @@
-importtargetdefinition -A ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.target
+#importtargetdefinition -A ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.target
 
-import ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.cquery
+setpref org.eclipse.buckminster.pde.targetPlatformPath=/Users/huebner/Downloads/eclipse3.7
+
+#import ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.cquery
 
 build
 
-perform -P ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/buckminster.properties org.xtext.example.buckminster.mydsl.releng#site.p2.zip
+perform -P ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl-build.properties org.xtext.example.buckminster.mydsl.releng#site.p2.zip

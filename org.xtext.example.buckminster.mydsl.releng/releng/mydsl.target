@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
 
-<target name="MyDSL platform" sequenceNumber="32">
+<target name="MyDSL platform" sequenceNumber="33">
 <locations>
-<location includeAllPlatforms="true" includeMode="planner" includeSource="false" type="InstallableUnit">
+<location includeAllPlatforms="true" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.easymock" version="0.0.0"/>
+<unit id="org.antlr.runtime" version="0.0.0"/>
+<unit id="org.eclipse.draw2d.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.emf.ecore.editor" version="0.0.0"/>
+<unit id="org.eclipse.emf.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.jdt.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.jdt.junit4.runtime" version="0.0.0"/>
+<unit id="org.eclipse.pde.core" version="0.0.0"/>
+<unit id="org.eclipse.pde.junit.runtime" version="0.0.0"/>
+<unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
 <unit id="org.junit4" version="0.0.0"/>
-<unit id="org.eclipse.swt.cocoa.macosx.x86_64" version="0.0.0"/>
+<unit id="org.junit" version="0.0.0"/>
 <repository location="http://download.eclipse.org/releases/indigo"/>
 </location>
-<location includeAllPlatforms="true" includeMode="planner" includeSource="false" type="InstallableUnit">
-<unit id="org.eclipse.xtext.ui.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.xtext.ui.junit" version="0.0.0"/>
-<unit id="org.eclipse.xtext.junit4" version="0.0.0"/>
+<location includeAllPlatforms="true" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.eclipse.emf.mwe.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.emf.mwe2.runtime.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.xpand.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.xtend.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.xtext.sdk.feature.group" version="0.0.0"/>
 <repository location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases"/>
 </location>
 </locations>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.xtext.example.buckminster.mydsl.feature" version="0.0.0">
+      <category name="MyDSL"/>
+   </feature>
+   <category-def name="MyDSL" label="My DSL Language">
+      <description>
+        With Xtext you can easily create your own programming languages
+        and domain-specific languages (DSLs). The framework supports the
+        development of language infrastructures including compilers and
+        interpreters as well as full blown Eclipse-based IDE integration. 
+      </description>
+   </category-def>
+</site>
