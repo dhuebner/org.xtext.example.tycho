@@ -1,4 +1,4 @@
-package org.xtext.example.tycho.mydsl.tests;
+package org.xtext.example.mydsl.tests;
 
 import static junit.framework.Assert.*;
 
