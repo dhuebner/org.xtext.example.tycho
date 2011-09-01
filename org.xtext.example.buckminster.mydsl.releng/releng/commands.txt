@@ -1,0 +1,7 @@
+importtargetdefinition -A ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.target
+
+import ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.cquery
+
+build
+
+perform org.xtext.example.buckminster.mydsl.releng#site.p2.zip
