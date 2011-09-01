@@ -4,6 +4,6 @@ setpref org.eclipse.buckminster.pde.targetPlatformPath=/Users/huebner/Downloads/
 
 #import ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.cquery
 
-build
+#build
 
 perform -P ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl-build.properties org.xtext.example.buckminster.mydsl.releng#site.p2.zip
