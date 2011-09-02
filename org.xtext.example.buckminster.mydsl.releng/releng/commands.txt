@@ -6,7 +6,7 @@ importtargetdefinition -A ${workspace.root}/org.xtext.example.buckminster.mydsl.
 
 # Uncomment following line if buckminster should  import projects into his workspace using my-dsl.cquery.
 # Note you can set buckmister workspace by passing -data <workspace location> parameter.
-#import ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.cquery
+import ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.cquery
 
 
 # Uncomment this if buckminster should build/compile your workspace
