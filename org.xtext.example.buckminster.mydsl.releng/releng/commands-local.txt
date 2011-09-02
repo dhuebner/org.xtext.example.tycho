@@ -1,0 +1,11 @@
+# Uncomment next lineUse running eclipse as target
+setpref org.eclipse.buckminster.pde.targetPlatformPath=${targetPlatform}
+
+# Comment out next line if buckminster should not build/compile your workspace
+build
+
+#Tests
+junit -l org.xtext.example.buckminster.mydsl.tests/org.xtext.example.buckminster.mydsl.tests.launch
+
+# Create p2 repository calls site.p2.zip action for the releng project
+perform -P ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl-build.properties org.xtext.example.buckminster.mydsl.releng#site.p2.zip

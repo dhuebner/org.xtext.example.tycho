@@ -1,9 +1,19 @@
-#importtargetdefinition -A ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.target
+# Uncomment next lineUse running eclipse as target
+setpref org.eclipse.buckminster.pde.targetPlatformPath=${workspace.root}/org.xtext.example.buckminster.mydsl.releng/target.platform
 
-setpref org.eclipse.buckminster.pde.targetPlatformPath=/Users/huebner/Downloads/eclipse3.7
+# Uncomment following line if buckminster should create a target platform
+importtargetdefinition -A ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.target
 
+# Uncomment following line if buckminster should  import projects into his workspace using my-dsl.cquery.
+# Note you can set buckmister workspace by passing -data <workspace location> parameter.
 #import ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.cquery
 
-#build
 
+# Uncomment this if buckminster should build/compile your workspace
+build
+
+#Tests
+junit -l org.xtext.example.buckminster.mydsl.tests/org.xtext.example.buckminster.mydsl.tests.launch
+
+# Create p2 repository calls site.p2.zip action for the releng project
 perform -P ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl-build.properties org.xtext.example.buckminster.mydsl.releng#site.p2.zip
