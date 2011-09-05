@@ -1,3 +1,4 @@
+clean
 # Uncomment next lineUse running eclipse as target
 setpref org.eclipse.buckminster.pde.targetPlatformPath=${workspace.root}/org.xtext.example.buckminster.mydsl.releng/target.platform
 
