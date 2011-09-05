@@ -1,6 +1,8 @@
 # Uncomment next lineUse running eclipse as target
 setpref org.eclipse.buckminster.pde.targetPlatformPath=${targetPlatform}
 
+import ${workspace.root}/org.xtext.example.buckminster.mydsl.releng/releng/mydsl.cquery
+
 # Comment out next line if buckminster should not build/compile your workspace
 build
 

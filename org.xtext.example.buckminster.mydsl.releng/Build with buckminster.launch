@@ -6,6 +6,6 @@
 </mapAttribute>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${none}"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/Users/huebner/buckminster/buckminster"/>
-<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-S ${workspace_loc}/org.xtext.example.buckminster.mydsl.releng/releng/commands-local.txt&#10;-vmargs -Dworkspace.root=${workspace_loc} -DtargetPlatform=${eclipse_home}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-data ${workspace_loc}/.buckminster -S ${workspace_loc}/org.xtext.example.buckminster.mydsl.releng/releng/commands-local.txt&#10;-vmargs -Dworkspace.root=${workspace_loc} -DtargetPlatform=${eclipse_home}"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc}"/>
 </launchConfiguration>
